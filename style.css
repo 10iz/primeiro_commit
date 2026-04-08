@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(169, 179, 179);
+}
+
+p{
+    color: blue;
+}
+
+.texto-destaque { color: green; font-weight: bold; }
+#botao-enviar { background-color: orange; }
+
+button {
+  background-color: blue;
+  transition: 0.5s; /* Deixa a mudança suave */
+}
+
+button:hover {
+  background-color: pink;
+  cursor: pointer;
+  transition: 5.0s;
+  transform: scale(100); /* O botão cresce um pouquinho */
+}
